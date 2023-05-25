@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * uf_sub - sub top of stack y second top stack
+ * uf_sub - subtract the  top node of stack from second node
  * @stack: pointer to lists for monty stack
  * @line_number: number of line opcode occurs on
  */
@@ -34,7 +34,7 @@ void uf_sub(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_mul - mul top of stack y second top stack
+ * uf_mul - mul the first node of the  stack by second
  * @stack: pointer to lists for monty stack
  * @line_number: number of line opcode occurs on
  */
@@ -59,7 +59,7 @@ void uf_mul(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_div - div top of stack y second top stack
+ * uf_div - div top stack by second top stack
  * @stack: pointer to lists for monty stack
  * @line_number: number of line opcode occurs on
  */
@@ -92,9 +92,9 @@ void uf_div(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * _mod - mod top of stack y second top stack
+ * uf_mod - this keep the remainder of the dividing the second node by the first
  * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ * @line_number: number of line opcode occurs
  */
 void uf_mod(stack_t **stack, unsigned int line_number)
 {
