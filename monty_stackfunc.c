@@ -1,6 +1,7 @@
 #include "monty.h"
+
 /**
- * uf_swap - swap top of stack y second top stack
+ * uf_swap - swap top of stack by second top stack
  * @stack: pointer to lists for monty stack
  * @line_number: number of line opcode occurs on
  */
@@ -22,9 +23,9 @@ void uf_swap(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_add - add top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @line_number: number of line opcode occurs on
+ * uf_add - it adds the first two values in a stack
+ * @stack: pointer to the head
+ * @line_number: number of line opcode occurs
  */
 
 void uf_add(stack_t **stack, unsigned int line_number)
@@ -56,7 +57,7 @@ void uf_add(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_nop - nop top of stack y second top stack
+ * uf_nop - this function does nothing
  * @stack: pointer to lists for monty stack
  * @line_number: number of line opcode occurs on
  */
