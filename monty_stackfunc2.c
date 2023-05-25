@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * uf_pstr - mod top of stack y second top stack
+ * uf_pstr - print string from the top
  * @stack: pointer to lists for monty stack
  * @line_number: number of line opcode occurs on
  */
@@ -25,8 +25,8 @@ void uf_pstr(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_rotl - mod top of stack y second top stack
- * @stack: pointer to lists for monty stack
+ * uf_rotl - This will rotate the stack to the left
+ * @stack: pointer to the head
  * @line_number: number of line opcode occurs on
  */
 void uf_rotl(stack_t **stack, unsigned int line_number)
@@ -51,8 +51,8 @@ void uf_rotl(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_rotr - mod top of stack y second top stacks
- * @stack: pointer to lists for monty stack
+ * uf_rotr - It rotates the first two values in the stack
+ * @stack: pointer to the head
  * @line_number: number of line opcode occurs on
  */
 void uf_rotr(stack_t **stack, unsigned int line_number)
