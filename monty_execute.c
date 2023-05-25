@@ -48,11 +48,11 @@ void nread_file(char *filename, stack_t **stack)
 }
 
 /**
- * get_op_func -  checks opcode and returns the correct function
+ * getopcode_func -  checks opcode and returns the correct function
  * @str: the opcode
  * Return: returns a functions, or NULL on failure
  */
-instruct_func get_op_func(char *str)
+instruct_func getopcode_func(char *str)
 {
 	int i;
 
