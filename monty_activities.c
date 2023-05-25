@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- * uf_push - push int to a stack
+ * uf_push - push int to the  stack
  * @stack: linked lists for monty stack
- * @line_number: number of line opcode occurs on
+ * @line_number: number of line opcode occurs
  */
 void uf_push(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
 {
@@ -25,9 +25,9 @@ void uf_push(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
 }
 
 /**
- * uf_pall - print all function
+ * uf_pall - print all the function
  * @stack: pointer to linked list stack
- * @line_number: number of line opcode occurs on
+ * @line_number: number opcode
  */
 void uf_pall(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
 {
@@ -61,8 +61,8 @@ void uf_pint(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_pop - remove element a list
- *@stack: pointer to first node
+ * uf_pop - remove element from the list
+ *@stack: pointer to the first node
  *@line_number: integer
  *Return: void
  */
@@ -82,8 +82,8 @@ void uf_pop(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * free_dlistint - free a list
- * @head: pointer to first node
+ * free_dlistint - free the list
+ * @head: pointer to the first node
  *
  */
 void free_dlistint(stack_t *head)
