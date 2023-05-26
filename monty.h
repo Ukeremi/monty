@@ -42,7 +42,7 @@ typedef struct instruction_s
  * struct global_variable - opcoode and its function
  * @file: the opcode
  * @push_arg: function to handle the opcode
- * @buffer: pointer to
+ * @_buffer: pointer to
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
  */

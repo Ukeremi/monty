@@ -92,7 +92,7 @@ void uf_div(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * uf_mod - this keep the remainder of the dividing the second node by the first
+ * uf_mod - this keep the remainder of dividing the second node by the first
  * @stack: pointer to lists for monty stack
  * @line_number: number of line opcode occurs
  */
