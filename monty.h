@@ -58,7 +58,7 @@ extern global_var var_global;
 void nread_file(char *filename, stack_t **stack);
 char *_parse_line(char *line, stack_t **stack, unsigned int line_number);
 typedef void (*instruct_func)(stack_t **stack, unsigned int line_number);
-instruct_func get_op_func(char *str);
+instruct_func getopcode_func(char *str);
 
 /*-- Given  Monty function Names --*/
 void uf_push(stack_t **stack, unsigned int line_number);
